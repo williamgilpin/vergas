@@ -7,6 +7,8 @@ from scipy import *
 from numpy import *
 from random import randrange
 
+from vergas_funcs import *
+
 lat = init_lattice(100)
 
 temps = linspace(100, 1000, 10)
